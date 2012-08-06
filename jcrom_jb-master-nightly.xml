@@ -20,7 +20,7 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="device/asus/grouper" />
+  <project path="device/asus/grouper" name="sola/jcrom_device_asus_grouper" remote="sola-android" revision="jb" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -309,5 +309,6 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="jcrom/samsung/maguro" name="sola/jcrom_samsung_maguro" remote="sola-android" revision="jb" />
   <project path="jcrom/samsung/negitoro" name="sola/jcrom_samsung_negitoro" remote="sola-android" revision="jb" />
+  <project path="jcrom/asus/grouper" name="sola/jcrom_asus_grouper" remote="sola-android" revision="jb" />
 
 </manifest>
