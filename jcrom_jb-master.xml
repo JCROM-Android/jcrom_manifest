@@ -30,7 +30,7 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/moto/common" name="device/moto/common" />
   <project path="device/moto/stingray" name="device/moto/stingray" />
-  <project path="device/moto/wingray" name="device/moto/wingray" />
+  <project path="device/moto/wingray" name="sola/jcrom_device_moto_wingray" remote="sola-android" revision="jb" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="sola/jcrom_device_samsung_crespo" remote="sola-android" revision="jb" />
   <project path="device/samsung/fullcrespo" name="sola/jcrom_device_samsung_fullcrespo" remote="sola-android" revision="jb" />
