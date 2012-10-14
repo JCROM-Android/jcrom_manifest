@@ -5,7 +5,7 @@
            fetch="file:///var/jcrom/aosp/" />
   <remote  name="sola-android"
            fetch="https://bitbucket.org/" />
-  <default revision="refs/tags/android-4.1.1_r6"
+  <default revision="refs/tags/android-4.1.2_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -38,7 +38,6 @@
   <project path="device/samsung/maguro" name="sola/jcrom_device_samsung_maguro" remote="sola-android" revision="jb" />
   <project path="device/samsung/negitoro" name="sola/jcrom_device_samsung_negitoro" remote="sola-android" revision="jb" />
   <project path="device/samsung/toro" name="device/samsung/toro" />
-  <project path="device/samsung/torospr" name="device/samsung/torospr" />
   <project path="device/samsung/tuna" name="sola/jcrom_device_samsung_tuna" remote="sola-android" revision="jb" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
