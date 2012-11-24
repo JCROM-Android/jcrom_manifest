@@ -20,8 +20,8 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />
+  <project path="device/asus/grouper" name="sola/jcrom_device_asus_grouper" remote="sola-android" revision="jb-4.2" />
+  <project path="device/asus/fullgrouper" name="sola/jcrom_device_asus_fullgrouper" remote="sola-android" revision="jb-4.2" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -348,6 +348,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="jcrom/samsung/maguro" name="sola/jcrom_samsung_maguro" remote="sola-android" revision="jb-4.2" />
   <project path="jcrom/samsung/negitoro" name="sola/jcrom_samsung_negitoro" remote="sola-android" revision="jb-4.2" />
+  <project path="jcrom/asus/grouper" name="sola/jcrom_asus_grouper" remote="sola-android" revision="jb-4.2" />
+  <project path="jcrom/asus/fullgrouper" name="sola/fulljcrom_asus_grouper" remote="sola-android" revision="jb-4.2" />
   <project path="jcrom/common" name="sola/jcrom_common" remote="sola-android" revision="jb-4.2" />
 
 </manifest>
