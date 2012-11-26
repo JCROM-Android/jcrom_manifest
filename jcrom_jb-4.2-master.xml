@@ -36,7 +36,7 @@
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="sola/jcrom_device_samsung_maguro" remote="sola-android" revision="jb-4.2" />
   <project path="device/samsung/negitoro" name="sola/jcrom_device_samsung_negitoro" remote="sola-android" revision="jb-4.2" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
+  <project path="device/samsung/manta" name="sola/jcrom_device_samsung_manta" remote="sola-android" revision="jb-4.2" />
   <project path="device/samsung/toro" name="device/samsung/toro" groups="device" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />
   <project path="device/samsung/tuna" name="sola/jcrom_device_samsung_tuna" remote="sola-android" revision="jb-4.2" />
@@ -348,6 +348,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="jcrom/samsung/maguro" name="sola/jcrom_samsung_maguro" remote="sola-android" revision="jb-4.2" />
   <project path="jcrom/samsung/negitoro" name="sola/jcrom_samsung_negitoro" remote="sola-android" revision="jb-4.2" />
+  <project path="jcrom/samsung/manta" name="sola/jcrom_samsung_manta" remote="sola-android" revision="jb-4.2" />
   <project path="jcrom/asus/grouper" name="sola/jcrom_asus_grouper" remote="sola-android" revision="jb-4.2" />
   <project path="jcrom/asus/fullgrouper" name="sola/jcrom_asus_fullgrouper" remote="sola-android" revision="jb-4.2" />
   <project path="jcrom/lge/mako" name="sola/jcrom_lge_mako" remote="sola-android" revision="jb-4.2" />
