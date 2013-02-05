@@ -32,6 +32,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="sola/jcrom_device_lge_mako" remote="sola-android" revision="jb-4.2" />
+  <project path="device/lge/fullmako" name="sola/jcrom_device_lge_fullmako" remote="sola-android" revision="jb-4.2" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/maguro" name="sola/jcrom_device_samsung_maguro" remote="sola-android" revision="jb-4.2" />
@@ -354,6 +355,7 @@
   <project path="jcrom/asus/grouper" name="sola/jcrom_asus_grouper" remote="sola-android" revision="jb-4.2" />
   <project path="jcrom/asus/fullgrouper" name="sola/jcrom_asus_fullgrouper" remote="sola-android" revision="jb-4.2" />
   <project path="jcrom/lge/mako" name="sola/jcrom_lge_mako" remote="sola-android" revision="jb-4.2" />
+  <project path="jcrom/lge/fullmako" name="sola/jcrom_lge_fullmako" remote="sola-android" revision="jb-4.2" />
   <project path="jcrom/common" name="sola/jcrom_common" remote="sola-android" revision="jb-4.2" />
 
 </manifest>
