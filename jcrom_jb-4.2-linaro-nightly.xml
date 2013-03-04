@@ -6,7 +6,7 @@
   <remote  name="sola-android"
            fetch="https://bitbucket.org/" />
   <remote  name="linaro"
-           fetch="git://android.git.linaro.org/" />
+           fetch="http://android.git.linaro.org/git-ro/" />
   <remote  name="linaro-other"
            fetch="git://git.linaro.org/" />
   <default revision="refs/tags/android-4.2.2_r1"
@@ -102,10 +102,10 @@
   <project path="jcrom/lge/mako" name="sola/jcrom_lge_mako" remote="sola-android" revision="jb-4.2" />
   <project path="jcrom/lge/fullmako" name="sola/jcrom_lge_fullmako" remote="sola-android" revision="jb-4.2" />
   <project path="jcrom/common" name="sola/jcrom_common" remote="sola-android" revision="jb-4.2" />
-  <project path="hardware/qcom/display" name="sola/jcrom_hardware_qcom_display" revision="jb-4.2-linaro" />
-  <project path="hardware/qcom/gps" name="sola/jcrom_hardware_qcom_gps" revision="jb-4.2-linaro" />
-  <project path="hardware/qcom/media" name="sola/jcrom_hardware_qcom_media" revision="jb-4.2-linaro" />
-  <project path="hardware/samsung_slsi/exynos5" name="sola/jcrom_hardware_samsung_slsi_exynos5" revision="jb-4.2-linaro" />
+  <project path="hardware/qcom/display" name="sola/jcrom_hardware_qcom_display" remote="sola-android" revision="jb-4.2-linaro" />
+  <project path="hardware/qcom/gps" name="sola/jcrom_hardware_qcom_gps" remote="sola-android" revision="jb-4.2-linaro" />
+  <project path="hardware/qcom/media" name="sola/jcrom_hardware_qcom_media" remote="sola-android" revision="jb-4.2-linaro" />
+  <project path="hardware/samsung_slsi/exynos5" name="sola/jcrom_hardware_samsung_slsi_exynos5" remote="sola-android" revision="jb-4.2-linaro" />
 
 <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
