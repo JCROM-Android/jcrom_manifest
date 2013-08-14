@@ -14,6 +14,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/asus/grouper" name="sola/jcrom_device_asus_grouper" remote="sola-android" revision="jb-4.3" />
+  <project path="device/asus/flo" name="sola/jcrom_device_asus_flo" remote="sola-android" revision="jb-4.3" />
   <project path="device/lge/mako" name="sola/jcrom_device_lge_mako" remote="sola-android" revision="jb-4.3" />
   <project path="device/samsung/maguro" name="sola/jcrom_device_samsung_maguro" remote="sola-android" revision="jb-4.3" />
   <project path="device/samsung/manta" name="sola/jcrom_device_samsung_manta" remote="sola-android" revision="jb-4.3" />
@@ -21,6 +22,7 @@
   <project path="jcrom/samsung/maguro" name="sola/jcrom_samsung_maguro" remote="sola-android" revision="jb-4.3" />
   <project path="jcrom/samsung/manta" name="sola/jcrom_samsung_manta" remote="sola-android" revision="jb-4.3" />
   <project path="jcrom/asus/grouper" name="sola/jcrom_asus_grouper" remote="sola-android" revision="jb-4.3" />
+  <project path="jcrom/asus/flo" name="sola/jcrom_asus_flo" remote="sola-android" revision="jb-4.3" />
   <project path="jcrom/lge/mako" name="sola/jcrom_lge_mako" remote="sola-android" revision="jb-4.3" />
   <project path="jcrom/common" name="sola/jcrom_common" remote="sola-android" revision="jb-4.3" />
   <project path="external/libnfc-nci" name="sola/jcrom_external_libnfc-nci" remote="sola-android" revision="jb-4.3" />
@@ -54,7 +56,6 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
