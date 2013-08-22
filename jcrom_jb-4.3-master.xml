@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="sola-android"
            fetch="https://bitbucket.org/" />
-  <default revision="refs/tags/android-4.3_r2.1"
+  <default revision="refs/tags/android-4.3_r2.2"
            remote="aosp"
            sync-j="4" />
 
@@ -69,7 +69,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" revision="refs/tags/android-4.3_r2.1_" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
