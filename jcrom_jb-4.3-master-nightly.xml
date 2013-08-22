@@ -32,6 +32,7 @@
   <project path="frameworks/base" name="sola/jcrom_frameworks_base" remote="sola-android" revision="jb-4.3" />
   <project path="frameworks/native" name="sola/jcrom_frameworks_native" remote="sola-android" revision="jb-4.3" />
   <project path="packages/apps/Gallery2" name="sola/jcrom_packages_apps_gallery2" remote="sola-android" revision="jb-4.3" />
+  <project path="packages/apps/JCWallpaper" name="sola/jcrom_packages_apps_jcwallpaper" remote="sola-android" revision="jb-4.3" />
   <project path="packages/apps/Launcher2" name="sola/jcrom_packages_apps_launcher2" remote="sola-android" revision="jb-4.3" />
   <project path="packages/apps/Settings" name="sola/jcrom_packages_apps_settings" remote="sola-android" revision="jb-4.3" />
   <project path="packages/apps/VisualThemeSelector" name="sola/jcrom_packages_apps_visualthemeselector" remote="sola-android" revision="jb-4.3" />
