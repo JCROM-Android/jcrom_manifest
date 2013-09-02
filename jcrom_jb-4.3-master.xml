@@ -40,8 +40,6 @@
   <project path="system/extras" name="sola/jcrom_system_extras" remote="sola-android" revision="jb-4.3" />
   <project path="system/vold" name="sola/jcrom_system_vold" remote="sola-android" revision="jb-4.3" />
   <project path="external/busybox" name="sola/jcrom_external_busybox" remote="sola-android" revision="jb-4.2" />
-  <project path="external/koush/Superuser" name="sola/jcrom_external_koush_superuser" remote="sola-android" revision="jb-4.3" />
-  <project path="external/koush/Widgets" name="sola/jcrom_external_koush_widgets" remote="sola-android" revision="jb-4.3" />
 
 <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
