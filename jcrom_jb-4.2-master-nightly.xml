@@ -109,7 +109,6 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
@@ -125,7 +124,6 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" />
   <project path="external/libsepol" name="platform/external/libsepol" />
@@ -198,7 +196,6 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="sola/jcrom_frameworks_av" remote="sola-android" revision="jb-4.2" />
   <project path="frameworks/base" name="sola/jcrom_frameworks_base" remote="sola-android" revision="jb-4.2" />
@@ -358,5 +355,8 @@
   <project path="jcrom/lge/fullmako" name="sola/jcrom_lge_fullmako" remote="sola-android" revision="jb-4.2" />
   <project path="jcrom/common" name="sola/jcrom_common" remote="sola-android" revision="jb-4.2" />
   <project path="packages/apps/JCWallpaper" name="sola/jcrom_packages_apps_jcwallpaper" remote="sola-android" revision="jb-4.2" />
+  <project path="external/jpeg" name="sola/jcrom_external_jpeg" remote="sola-android" revision="jb-4.2" />
+  <project path="external/libpng" name="sola/jcrom_external_libpng" remote="sola-android" revision="jb-4.2" />
+  <project path="external/zlib" name="sola/jcrom_external_zlib" remote="sola-android" revision="jb-4.2" />
 
 </manifest>
