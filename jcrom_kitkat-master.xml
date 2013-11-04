@@ -9,9 +9,18 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+<!-- JCROM -->
+  <project path="build" name="sola/jcrom_build" remote="sola-android" revision="kitkat">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="device/asus/grouper" name="sola/jcrom_device_asus_grouper" remote="sola-android" revision="kitkat" />
+  <project path="device/asus/flo" name="sola/jcrom_device_asus_flo" remote="sola-android" revision="kitkat" />
+  <project path="device/lge/mako" name="sola/jcrom_device_lge_mako" remote="sola-android" revision="kitkat" />
+  <project path="device/lge/hammerhead" name="sola/jcrom_device_lge_hammerhead" remote="sola-android" revision="kitkat" />
+  <project path="device/samsung/maguro" name="sola/jcrom_device_samsung_maguro" remote="sola-android" revision="kitkat" />
+  <project path="device/samsung/tuna" name="sola/jcrom_device_samsung_tuna" remote="sola-android" revision="kitkat" />
+
+<!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -26,9 +35,7 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -41,9 +48,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
