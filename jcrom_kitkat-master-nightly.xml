@@ -19,6 +19,20 @@
   <project path="device/lge/hammerhead" name="sola/jcrom_device_lge_hammerhead" remote="sola-android" revision="kitkat" />
   <project path="device/samsung/maguro" name="sola/jcrom_device_samsung_maguro" remote="sola-android" revision="kitkat" />
   <project path="device/samsung/tuna" name="sola/jcrom_device_samsung_tuna" remote="sola-android" revision="kitkat" />
+  <project path="external/busybox" name="sola/jcrom_external_busybox" remote="sola-android" revision="kitkat" />
+  <project path="packages/apps/JCWallpaper" name="sola/jcrom_packages_apps_jcwallpaper" remote="sola-android" revision="kitkat" />
+  <project path="packages/apps/JCLauncher" name="sola/jcrom_packages_apps_jclauncher" remote="sola-android" revision="kitkat" />
+  <project path="packages/apps/Settings" name="sola/jcrom_packages_apps_settings" remote="sola-android" revision="kitkat" />
+  <project path="packages/apps/VisualThemeSelector" name="sola/jcrom_packages_apps_visualthemeselector" remote="sola-android" revision="kitkat" />
+  <project path="system/core" name="sola/jcrom_system_core" remote="sola-android" revision="kitkat" />
+  <project path="jcrom/samsung/maguro" name="sola/jcrom_samsung_maguro" remote="sola-android" revision="kitkat" />
+  <project path="jcrom/samsung/manta" name="sola/jcrom_samsung_manta" remote="sola-android" revision="kitkat" />
+  <project path="jcrom/asus/grouper" name="sola/jcrom_asus_grouper" remote="sola-android" revision="kitkat" />
+  <project path="jcrom/asus/flo" name="sola/jcrom_asus_flo" remote="sola-android" revision="kitkat" />
+  <project path="jcrom/asus/deb" name="sola/jcrom_asus_deb" remote="sola-android" revision="kitkat" />
+  <project path="jcrom/lge/mako" name="sola/jcrom_lge_mako" remote="sola-android" revision="kitkat" />
+  <project path="jcrom/lge/hammerhead" name="sola/jcrom_lge_hammerhead" remote="sola-android" revision="kitkat" />
+  <project path="jcrom/common" name="sola/jcrom_common" remote="sola-android" revision="kitkat" />
 
 <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -321,7 +335,6 @@
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
@@ -334,7 +347,6 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -417,7 +429,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
