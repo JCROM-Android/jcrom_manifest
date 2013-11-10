@@ -18,6 +18,7 @@
   <project path="device/lge/mako" name="sola/jcrom_device_lge_mako" remote="sola-android" revision="kitkat" />
   <project path="device/lge/hammerhead" name="sola/jcrom_device_lge_hammerhead" remote="sola-android" revision="kitkat" />
   <project path="device/samsung/maguro" name="sola/jcrom_device_samsung_maguro" remote="sola-android" revision="kitkat" />
+  <project path="device/samsung/manta" name="sola/jcrom_device_samsung_manta" remote="sola-android" revision="kitkat" />
   <project path="device/samsung/tuna" name="sola/jcrom_device_samsung_tuna" remote="sola-android" revision="kitkat" />
   <project path="external/busybox" name="sola/jcrom_external_busybox" remote="sola-android" revision="kitkat" />
   <project path="packages/apps/JCWallpaper" name="sola/jcrom_packages_apps_jcwallpaper" remote="sola-android" revision="kitkat" />
@@ -65,7 +66,6 @@
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
