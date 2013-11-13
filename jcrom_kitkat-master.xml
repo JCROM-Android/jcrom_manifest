@@ -21,6 +21,7 @@
   <project path="device/samsung/manta" name="sola/jcrom_device_samsung_manta" remote="sola-android" revision="kitkat" />
   <project path="device/samsung/tuna" name="sola/jcrom_device_samsung_tuna" remote="sola-android" revision="kitkat" />
   <project path="external/busybox" name="sola/jcrom_external_busybox" remote="sola-android" revision="kitkat" />
+  <project path="frameworks/base" name="sola/jcrom_frameworks_base" remote="sola-android" revision="kitkat" />
   <project path="packages/apps/JCWallpaper" name="sola/jcrom_packages_apps_jcwallpaper" remote="sola-android" revision="kitkat" />
   <project path="packages/apps/JCLauncher" name="sola/jcrom_packages_apps_jclauncher" remote="sola-android" revision="kitkat" />
   <project path="packages/apps/Settings" name="sola/jcrom_packages_apps_settings" remote="sola-android" revision="kitkat" />
@@ -260,7 +261,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
