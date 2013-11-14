@@ -15,18 +15,23 @@
   </project>
   <project path="device/asus/grouper" name="sola/jcrom_device_asus_grouper" remote="sola-android" revision="kitkat" />
   <project path="device/asus/flo" name="sola/jcrom_device_asus_flo" remote="sola-android" revision="kitkat" />
+  <project path="device/asus/deb" name="sola/jcrom_device_asus_deb" remote="sola-android" revision="kitkat" />
   <project path="device/lge/mako" name="sola/jcrom_device_lge_mako" remote="sola-android" revision="kitkat" />
   <project path="device/lge/hammerhead" name="sola/jcrom_device_lge_hammerhead" remote="sola-android" revision="kitkat" />
   <project path="device/samsung/maguro" name="sola/jcrom_device_samsung_maguro" remote="sola-android" revision="kitkat" />
   <project path="device/samsung/manta" name="sola/jcrom_device_samsung_manta" remote="sola-android" revision="kitkat" />
   <project path="device/samsung/tuna" name="sola/jcrom_device_samsung_tuna" remote="sola-android" revision="kitkat" />
   <project path="external/busybox" name="sola/jcrom_external_busybox" remote="sola-android" revision="kitkat" />
+  <project path="external/skia" name="sola/jcrom_external_skia" remote="sola-android" revision="kitkat" />
+  <project path="frameworks/av" name="sola/jcrom_frameworks_av" remote="sola-android" revision="kitkat" />
   <project path="frameworks/base" name="sola/jcrom_frameworks_base" remote="sola-android" revision="kitkat" />
+  <project path="frameworks/native" name="sola/jcrom_frameworks_native" remote="sola-android" revision="kitkat" />
   <project path="packages/apps/JCWallpaper" name="sola/jcrom_packages_apps_jcwallpaper" remote="sola-android" revision="kitkat" />
   <project path="packages/apps/JCLauncher" name="sola/jcrom_packages_apps_jclauncher" remote="sola-android" revision="kitkat" />
   <project path="packages/apps/Settings" name="sola/jcrom_packages_apps_settings" remote="sola-android" revision="kitkat" />
   <project path="packages/apps/VisualThemeSelector" name="sola/jcrom_packages_apps_visualthemeselector" remote="sola-android" revision="kitkat" />
   <project path="system/core" name="sola/jcrom_system_core" remote="sola-android" revision="kitkat" />
+  <project path="system/vold" name="sola/jcrom_system_vold" remote="sola-android" revision="kitkat" />
   <project path="jcrom/samsung/maguro" name="sola/jcrom_samsung_maguro" remote="sola-android" revision="kitkat" />
   <project path="jcrom/samsung/manta" name="sola/jcrom_samsung_manta" remote="sola-android" revision="kitkat" />
   <project path="jcrom/asus/grouper" name="sola/jcrom_asus_grouper" remote="sola-android" revision="kitkat" />
@@ -50,7 +55,6 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="device/common" />
@@ -230,7 +234,6 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="platform/external/skia" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -260,14 +263,12 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -433,7 +434,6 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
