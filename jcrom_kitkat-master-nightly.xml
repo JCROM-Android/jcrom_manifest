@@ -26,10 +26,13 @@
   <project path="frameworks/av" name="sola/jcrom_frameworks_av" remote="sola-android" revision="kitkat" />
   <project path="frameworks/base" name="sola/jcrom_frameworks_base" remote="sola-android" revision="kitkat" />
   <project path="frameworks/native" name="sola/jcrom_frameworks_native" remote="sola-android" revision="kitkat" />
+  <project path="frameworks/opt/telephony" name="sola/jcrom_frameworks_opt_telephony" remote="sola-android" revision="kitkat" />
   <project path="packages/apps/JCWallpaper" name="sola/jcrom_packages_apps_jcwallpaper" remote="sola-android" revision="kitkat" />
   <project path="packages/apps/JCLauncher" name="sola/jcrom_packages_apps_jclauncher" remote="sola-android" revision="kitkat" />
   <project path="packages/apps/Settings" name="sola/jcrom_packages_apps_settings" remote="sola-android" revision="kitkat" />
   <project path="packages/apps/VisualThemeSelector" name="sola/jcrom_packages_apps_visualthemeselector" remote="sola-android" revision="kitkat" />
+  <project path="packages/providers/ContactsProvider" name="sola/jcrom_packages_providers_contactsprovider" remote="sola-android" revision="kitkat" />
+  <project path="packages/services/Telephony" name="sola/jcrom_packages_services_telephony" remote="sola-android" revision="kitkat" />
   <project path="system/core" name="sola/jcrom_system_core" remote="sola-android" revision="kitkat" />
   <project path="system/vold" name="sola/jcrom_system_vold" remote="sola-android" revision="kitkat" />
   <project path="jcrom/samsung/maguro" name="sola/jcrom_samsung_maguro" remote="sola-android" revision="kitkat" />
@@ -280,7 +283,6 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -363,7 +365,6 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
@@ -372,7 +373,6 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
