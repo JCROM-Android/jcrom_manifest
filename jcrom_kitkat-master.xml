@@ -23,6 +23,7 @@
   <project path="device/samsung/tuna" name="sola/jcrom_device_samsung_tuna" remote="sola-android" revision="kitkat" />
   <project path="external/busybox" name="sola/jcrom_external_busybox" remote="sola-android" revision="kitkat" />
   <project path="external/skia" name="sola/jcrom_external_skia" remote="sola-android" revision="kitkat" />
+  <project path="external/chromium_org" name="sola/jcrom_external_chromium_org" remote="sola-android" revision="kitkat" />
   <project path="frameworks/av" name="sola/jcrom_frameworks_av" remote="sola-android" revision="kitkat" />
   <project path="frameworks/base" name="sola/jcrom_frameworks_base" remote="sola-android" revision="kitkat" />
   <project path="frameworks/native" name="sola/jcrom_frameworks_native" remote="sola-android" revision="kitkat" />
@@ -96,7 +97,6 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="platform/external/chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
