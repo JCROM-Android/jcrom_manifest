@@ -3,50 +3,50 @@
 
   <remote  name="aosp"
            fetch="file:///var/jcrom/aosp/" />
-  <remote  name="sola-android"
-           fetch="https://bitbucket.org/" />
+  <remote  name="jcrom"
+           fetch="https://github.com/" />
   <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
            sync-j="4" />
 
 <!-- JCROM -->
-  <project path="build" name="sola/jcrom_build" remote="sola-android" revision="jb-4.3">
+  <project path="build" name="JCROM-Android/jcrom_build" remote="sola-android" revision="jb-4.3">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/asus/grouper" name="sola/jcrom_device_asus_grouper" remote="sola-android" revision="jb-4.3" />
-  <project path="device/asus/flo" name="sola/jcrom_device_asus_flo" remote="sola-android" revision="jb-4.3" />
-  <project path="device/asus/deb" name="sola/jcrom_device_asus_deb" remote="sola-android" revision="jb-4.3" />
-  <project path="device/lge/mako" name="sola/jcrom_device_lge_mako" remote="sola-android" revision="jb-4.3" />
-  <project path="device/samsung/maguro" name="sola/jcrom_device_samsung_maguro" remote="sola-android" revision="jb-4.3" />
-  <project path="device/samsung/manta" name="sola/jcrom_device_samsung_manta" remote="sola-android" revision="jb-4.3" />
-  <project path="device/samsung/tuna" name="sola/jcrom_device_samsung_tuna" remote="sola-android" revision="jb-4.3" />
-  <project path="jcrom/samsung/maguro" name="sola/jcrom_samsung_maguro" remote="sola-android" revision="jb-4.3" />
-  <project path="jcrom/samsung/manta" name="sola/jcrom_samsung_manta" remote="sola-android" revision="jb-4.3" />
-  <project path="jcrom/asus/grouper" name="sola/jcrom_asus_grouper" remote="sola-android" revision="jb-4.3" />
-  <project path="jcrom/asus/flo" name="sola/jcrom_asus_flo" remote="sola-android" revision="jb-4.3" />
-  <project path="jcrom/asus/deb" name="sola/jcrom_asus_deb" remote="sola-android" revision="jb-4.3" />
-  <project path="jcrom/lge/mako" name="sola/jcrom_lge_mako" remote="sola-android" revision="jb-4.3" />
-  <project path="jcrom/common" name="sola/jcrom_common" remote="sola-android" revision="jb-4.3" />
-  <project path="external/libnfc-nci" name="sola/jcrom_external_libnfc-nci" remote="sola-android" revision="jb-4.3" />
-  <project path="external/qemu" name="sola/jcrom_external_qemu" remote="sola-android" revision="jb-4.3" />
-  <project path="external/skia" name="sola/jcrom_external_skia" remote="sola-android" revision="jb-4.3" />
-  <project path="frameworks/av" name="sola/jcrom_frameworks_av" remote="sola-android" revision="jb-4.3" />
-  <project path="frameworks/base" name="sola/jcrom_frameworks_base" remote="sola-android" revision="jb-4.3" />
-  <project path="frameworks/native" name="sola/jcrom_frameworks_native" remote="sola-android" revision="jb-4.3" />
-  <project path="packages/apps/Gallery2" name="sola/jcrom_packages_apps_gallery2" remote="sola-android" revision="jb-4.3" />
-  <project path="packages/apps/JCWallpaper" name="sola/jcrom_packages_apps_jcwallpaper" remote="sola-android" revision="jb-4.3" />
-  <project path="packages/apps/Launcher2" name="sola/jcrom_packages_apps_launcher2" remote="sola-android" revision="jb-4.3" />
-  <project path="packages/apps/Settings" name="sola/jcrom_packages_apps_settings" remote="sola-android" revision="jb-4.3" />
-  <project path="packages/apps/VisualThemeSelector" name="sola/jcrom_packages_apps_visualthemeselector" remote="sola-android" revision="jb-4.3" />
-  <project path="packages/apps/Dialer" name="sola/jcrom_packages_apps_dialer"  remote="sola-android" revision="jb-4.3" />
-  <project path="system/core" name="sola/jcrom_system_core" remote="sola-android" revision="jb-4.3" />
-  <project path="system/extras" name="sola/jcrom_system_extras" remote="sola-android" revision="jb-4.3" />
-  <project path="system/vold" name="sola/jcrom_system_vold" remote="sola-android" revision="jb-4.3" />
-  <project path="external/busybox" name="sola/jcrom_external_busybox" remote="sola-android" revision="jb-4.2" />
-  <project path="bionic" name="sola/jcrom_bionic" remote="sola-android" revision="jb-4.3" />
-  <project path="external/jpeg" name="sola/jcrom_external_jpeg" remote="sola-android" revision="jb-4.3" />
-  <project path="external/libpng" name="sola/jcrom_external_libpng" remote="sola-android" revision="jb-4.3" />
-  <project path="external/zlib" name="sola/jcrom_external_zlib" remote="sola-android" revision="jb-4.3" />
+  <project path="device/asus/grouper" name="JCROM-Android/jcrom_device_asus_grouper" remote="sola-android" revision="jb-4.3" />
+  <project path="device/asus/flo" name="JCROM-Android/jcrom_device_asus_flo" remote="sola-android" revision="jb-4.3" />
+  <project path="device/asus/deb" name="JCROM-Android/jcrom_device_asus_deb" remote="sola-android" revision="jb-4.3" />
+  <project path="device/lge/mako" name="JCROM-Android/jcrom_device_lge_mako" remote="sola-android" revision="jb-4.3" />
+  <project path="device/samsung/maguro" name="JCROM-Android/jcrom_device_samsung_maguro" remote="sola-android" revision="jb-4.3" />
+  <project path="device/samsung/manta" name="JCROM-Android/jcrom_device_samsung_manta" remote="sola-android" revision="jb-4.3" />
+  <project path="device/samsung/tuna" name="JCROM-Android/jcrom_device_samsung_tuna" remote="sola-android" revision="jb-4.3" />
+  <project path="jcrom/samsung/maguro" name="JCROM-Android/jcrom_samsung_maguro" remote="sola-android" revision="jb-4.3" />
+  <project path="jcrom/samsung/manta" name="JCROM-Android/jcrom_samsung_manta" remote="sola-android" revision="jb-4.3" />
+  <project path="jcrom/asus/grouper" name="JCROM-Android/jcrom_asus_grouper" remote="sola-android" revision="jb-4.3" />
+  <project path="jcrom/asus/flo" name="JCROM-Android/jcrom_asus_flo" remote="sola-android" revision="jb-4.3" />
+  <project path="jcrom/asus/deb" name="JCROM-Android/jcrom_asus_deb" remote="sola-android" revision="jb-4.3" />
+  <project path="jcrom/lge/mako" name="JCROM-Android/jcrom_lge_mako" remote="sola-android" revision="jb-4.3" />
+  <project path="jcrom/common" name="JCROM-Android/jcrom_common" remote="sola-android" revision="jb-4.3" />
+  <project path="external/libnfc-nci" name="JCROM-Android/jcrom_external_libnfc-nci" remote="sola-android" revision="jb-4.3" />
+  <project path="external/qemu" name="JCROM-Android/jcrom_external_qemu" remote="sola-android" revision="jb-4.3" />
+  <project path="external/skia" name="JCROM-Android/jcrom_external_skia" remote="sola-android" revision="jb-4.3" />
+  <project path="frameworks/av" name="JCROM-Android/jcrom_frameworks_av" remote="sola-android" revision="jb-4.3" />
+  <project path="frameworks/base" name="JCROM-Android/jcrom_frameworks_base" remote="sola-android" revision="jb-4.3" />
+  <project path="frameworks/native" name="JCROM-Android/jcrom_frameworks_native" remote="sola-android" revision="jb-4.3" />
+  <project path="packages/apps/Gallery2" name="JCROM-Android/jcrom_packages_apps_gallery2" remote="sola-android" revision="jb-4.3" />
+  <project path="packages/apps/JCWallpaper" name="JCROM-Android/jcrom_packages_apps_jcwallpaper" remote="sola-android" revision="jb-4.3" />
+  <project path="packages/apps/Launcher2" name="JCROM-Android/jcrom_packages_apps_launcher2" remote="sola-android" revision="jb-4.3" />
+  <project path="packages/apps/Settings" name="JCROM-Android/jcrom_packages_apps_settings" remote="sola-android" revision="jb-4.3" />
+  <project path="packages/apps/VisualThemeSelector" name="JCROM-Android/jcrom_packages_apps_visualthemeselector" remote="sola-android" revision="jb-4.3" />
+  <project path="packages/apps/Dialer" name="JCROM-Android/jcrom_packages_apps_dialer"  remote="sola-android" revision="jb-4.3" />
+  <project path="system/core" name="JCROM-Android/jcrom_system_core" remote="sola-android" revision="jb-4.3" />
+  <project path="system/extras" name="JCROM-Android/jcrom_system_extras" remote="sola-android" revision="jb-4.3" />
+  <project path="system/vold" name="JCROM-Android/jcrom_system_vold" remote="sola-android" revision="jb-4.3" />
+  <project path="external/busybox" name="JCROM-Android/jcrom_external_busybox" remote="sola-android" revision="jb-4.2" />
+  <project path="bionic" name="JCROM-Android/jcrom_bionic" remote="sola-android" revision="jb-4.3" />
+  <project path="external/jpeg" name="JCROM-Android/jcrom_external_jpeg" remote="sola-android" revision="jb-4.3" />
+  <project path="external/libpng" name="JCROM-Android/jcrom_external_libpng" remote="sola-android" revision="jb-4.3" />
+  <project path="external/zlib" name="JCROM-Android/jcrom_external_zlib" remote="sola-android" revision="jb-4.3" />
 
 <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />

@@ -3,25 +3,25 @@
 
   <remote  name="aosp"
            fetch="file:///var/jcrom/aosp/" />
-  <remote  name="sola-android"
-           fetch="https://bitbucket.org/" />
+  <remote  name="jcrom"
+           fetch="https://github.com/" />
   <default revision="refs/tags/android-4.1.2_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="sola/jcrom_build" remote="sola-android" revision="jb">
+  <project path="build" name="JCROM-Android/jcrom_build" remote="sola-android" revision="jb">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="sola/jcrom_bionic" remote="sola-android" revision="jb" />
+  <project path="bionic" name="JCROM-Android/jcrom_bionic" remote="sola-android" revision="jb" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="sola/jcrom_device_asus_grouper" remote="sola-android" revision="jb" />
-  <project path="device/asus/grouperota" name="sola/jcrom_device_asus_grouperota" remote="sola-android" revision="jb" />
+  <project path="device/asus/grouper" name="JCROM-Android/jcrom_device_asus_grouper" remote="sola-android" revision="jb" />
+  <project path="device/asus/grouperota" name="JCROM-Android/jcrom_device_asus_grouperota" remote="sola-android" revision="jb" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -30,15 +30,15 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
   <project path="device/moto/common" name="device/moto/common" />
   <project path="device/moto/stingray" name="device/moto/stingray" />
-  <project path="device/moto/wingray" name="sola/jcrom_device_moto_wingray" remote="sola-android" revision="jb" />
+  <project path="device/moto/wingray" name="JCROM-Android/jcrom_device_moto_wingray" remote="sola-android" revision="jb" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/crespo" name="sola/jcrom_device_samsung_crespo" remote="sola-android" revision="jb" />
-  <project path="device/samsung/fullcrespo" name="sola/jcrom_device_samsung_fullcrespo" remote="sola-android" revision="jb" />
+  <project path="device/samsung/crespo" name="JCROM-Android/jcrom_device_samsung_crespo" remote="sola-android" revision="jb" />
+  <project path="device/samsung/fullcrespo" name="JCROM-Android/jcrom_device_samsung_fullcrespo" remote="sola-android" revision="jb" />
   <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" />
-  <project path="device/samsung/maguro" name="sola/jcrom_device_samsung_maguro" remote="sola-android" revision="jb" />
-  <project path="device/samsung/negitoro" name="sola/jcrom_device_samsung_negitoro" remote="sola-android" revision="jb" />
+  <project path="device/samsung/maguro" name="JCROM-Android/jcrom_device_samsung_maguro" remote="sola-android" revision="jb" />
+  <project path="device/samsung/negitoro" name="JCROM-Android/jcrom_device_samsung_negitoro" remote="sola-android" revision="jb" />
   <project path="device/samsung/toro" name="device/samsung/toro" />
-  <project path="device/samsung/tuna" name="sola/jcrom_device_samsung_tuna" remote="sola-android" revision="jb" />
+  <project path="device/samsung/tuna" name="JCROM-Android/jcrom_device_samsung_tuna" remote="sola-android" revision="jb" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -55,7 +55,7 @@
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="sola/jcrom_external_busybox" remote="sola-android" revision="jb" />
+  <project path="external/busybox" name="JCROM-Android/jcrom_external_busybox" remote="sola-android" revision="jb" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
@@ -152,14 +152,14 @@
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
-  <project path="external/qemu" name="sola/jcrom_external_qemu" remote="sola-android" revision="jb" />
+  <project path="external/qemu" name="JCROM-Android/jcrom_external_qemu" remote="sola-android" revision="jb" />
   <project path="external/qemu-pc-bios" name="platform/external/qemu-pc-bios" />
   <project path="external/quake" name="platform/external/quake" />
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
-  <project path="external/skia" name="sola/jcrom_external_skia" remote="sola-android" revision="jb" />
+  <project path="external/skia" name="JCROM-Android/jcrom_external_skia" remote="sola-android" revision="jb" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
@@ -187,7 +187,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="sola/jcrom_frameworks_base" remote="sola-android" revision="jb" />
+  <project path="frameworks/base" name="JCROM-Android/jcrom_frameworks_base" remote="sola-android" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -195,7 +195,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="sola/jcrom_frameworks_native" remote="sola-android" revision="jb" />
+  <project path="frameworks/native" name="JCROM-Android/jcrom_frameworks_native" remote="sola-android" revision="jb" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
@@ -237,7 +237,7 @@
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="sola/jcrom_packages_apps_launcher2" remote="sola-android" revision="jb" />
+  <project path="packages/apps/Launcher2" name="JCROM-Android/jcrom_packages_apps_launcher2" remote="sola-android" revision="jb" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
@@ -248,8 +248,8 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="sola/jcrom_packages_apps_settings" remote="sola-android" revision="jb" />
-  <project path="packages/apps/XSuperuser" name="sola/jcrom_packages_apps_xsuperuser" remote="sola-android" revision="jb" />
+  <project path="packages/apps/Settings" name="JCROM-Android/jcrom_packages_apps_settings" remote="sola-android" revision="jb" />
+  <project path="packages/apps/XSuperuser" name="JCROM-Android/jcrom_packages_apps_xsuperuser" remote="sola-android" revision="jb" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
@@ -303,20 +303,20 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="sola/jcrom_system_core" remote="sola-android" revision="jb" />
-  <project path="system/extras" name="sola/jcrom_system_extras" remote="sola-android" revision="jb" />
+  <project path="system/core" name="JCROM-Android/jcrom_system_core" remote="sola-android" revision="jb" />
+  <project path="system/extras" name="JCROM-Android/jcrom_system_extras" remote="sola-android" revision="jb" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/su" name="sola/jcrom_system_su" remote="sola-android" revision="jb" />
-  <project path="system/vold" name="sola/jcrom_system_vold" remote="sola-android" revision="jb" />
-  <project path="jcrom/samsung/maguro" name="sola/jcrom_samsung_maguro" remote="sola-android" revision="jb" />
-  <project path="jcrom/samsung/negitoro" name="sola/jcrom_samsung_negitoro" remote="sola-android" revision="jb" />
-  <project path="jcrom/asus/grouper" name="sola/jcrom_asus_grouper" remote="sola-android" revision="jb" />
-  <project path="jcrom/asus/grouperota" name="sola/jcrom_asus_grouperota" remote="sola-android" revision="jb" />
-  <project path="device/jcrom/jcemulator" name="sola/jcrom_device_jcrom_jcemulator" remote="sola-android" revision="jb" />
-  <project path="device/jcrom/jcrom-sdk_addon" name="sola/jcrom_device_jcrom_jcrom-sdk_addon" remote="sola-android" revision="jb" />
-  <project path="jcrom/samsung/crespo" name="sola/jcrom_samsung_crespo" remote="sola-android" revision="jb" />
-  <project path="jcrom/samsung/fullcrespo" name="sola/jcrom_samsung_fullcrespo" remote="sola-android" revision="jb" />
-  <project path="jcrom/common" name="sola/jcrom_common" remote="sola-android" revision="jb" />
+  <project path="system/su" name="JCROM-Android/jcrom_system_su" remote="sola-android" revision="jb" />
+  <project path="system/vold" name="JCROM-Android/jcrom_system_vold" remote="sola-android" revision="jb" />
+  <project path="jcrom/samsung/maguro" name="JCROM-Android/jcrom_samsung_maguro" remote="sola-android" revision="jb" />
+  <project path="jcrom/samsung/negitoro" name="JCROM-Android/jcrom_samsung_negitoro" remote="sola-android" revision="jb" />
+  <project path="jcrom/asus/grouper" name="JCROM-Android/jcrom_asus_grouper" remote="sola-android" revision="jb" />
+  <project path="jcrom/asus/grouperota" name="JCROM-Android/jcrom_asus_grouperota" remote="sola-android" revision="jb" />
+  <project path="device/jcrom/jcemulator" name="JCROM-Android/jcrom_device_jcrom_jcemulator" remote="sola-android" revision="jb" />
+  <project path="device/jcrom/jcrom-sdk_addon" name="JCROM-Android/jcrom_device_jcrom_jcrom-sdk_addon" remote="sola-android" revision="jb" />
+  <project path="jcrom/samsung/crespo" name="JCROM-Android/jcrom_samsung_crespo" remote="sola-android" revision="jb" />
+  <project path="jcrom/samsung/fullcrespo" name="JCROM-Android/jcrom_samsung_fullcrespo" remote="sola-android" revision="jb" />
+  <project path="jcrom/common" name="JCROM-Android/jcrom_common" remote="sola-android" revision="jb" />
 </manifest>
