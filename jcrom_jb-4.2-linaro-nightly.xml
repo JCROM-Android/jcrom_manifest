@@ -65,48 +65,48 @@
   <project path="external/llvm" name="platform/external/llvm" remote="linaro" revision="linaro_android_4.2.2" />
 
 <!-- JCROM -->
-  <project path="build" name="JCROM-Android/jcrom_build" remote="sola-android" revision="jb-4.2-linaro">
+  <project path="build" name="JCROM-Android/jcrom_build" remote="jcrom" revision="jb-4.2-linaro">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="JCROM-Android/jcrom_bionic" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="device/asus/grouper" name="JCROM-Android/jcrom_device_asus_grouper" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="device/asus/fullgrouper" name="JCROM-Android/jcrom_device_asus_fullgrouper" remote="sola-android" revision="jb-4.2" />
-  <project path="device/lge/mako" name="JCROM-Android/jcrom_device_lge_mako" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="device/lge/fullmako" name="JCROM-Android/jcrom_device_lge_fullmako" remote="sola-android" revision="jb-4.2" />
-  <project path="device/lge/mako-kernel" name="JCROM-Android/jcrom_device_lge_mako-kernel" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="device/samsung/maguro" name="JCROM-Android/jcrom_device_samsung_maguro" remote="sola-android" revision="jb-4.2" />
-  <project path="device/samsung/negitoro" name="JCROM-Android/jcrom_device_samsung_negitoro" remote="sola-android" revision="jb-4.2" />
-  <project path="device/samsung/manta" name="JCROM-Android/jcrom_device_samsung_manta" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="device/samsung/tuna" name="JCROM-Android/jcrom_device_samsung_tuna" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="external/busybox" name="JCROM-Android/jcrom_external_busybox" remote="sola-android" revision="jb-4.2" />
-  <project path="external/kernel-headers" name="JCROM-Android/jcrom_external_kernel-headers" remote="sola-android" revision="jb-4.2" />
-  <project path="external/qemu" name="JCROM-Android/jcrom_external_qemu" remote="sola-android" revision="jb-4.2" />
-  <project path="external/skia" name="JCROM-Android/jcrom_external_skia" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="frameworks/av" name="JCROM-Android/jcrom_frameworks_av" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="frameworks/base" name="JCROM-Android/jcrom_frameworks_base" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="frameworks/native" name="JCROM-Android/jcrom_frameworks_native" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="packages/apps/DeskClock" name="JCROM-Android/jcrom_packages_apps_deskclock" remote="sola-android" revision="jb-4.2" />
-  <project path="packages/apps/Gallery2" name="JCROM-Android/jcrom_packages_apps_gallery2" remote="sola-android" revision="jb-4.2" />
-  <project path="packages/apps/Launcher2" name="JCROM-Android/jcrom_packages_apps_launcher2" remote="sola-android" revision="jb-4.2" />
-  <project path="packages/apps/Settings" name="JCROM-Android/jcrom_packages_apps_settings" remote="sola-android" revision="jb-4.2" />
-  <project path="packages/apps/XSuperuser" name="JCROM-Android/jcrom_packages_apps_xsuperuser" remote="sola-android" revision="jb-4.2" />
-  <project path="packages/apps/VisualThemeSelector" name="JCROM-Android/jcrom_packages_apps_visualthemeselector" remote="sola-android" revision="master" />
-  <project path="system/core" name="JCROM-Android/jcrom_system_core" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="system/extras" name="JCROM-Android/jcrom_system_extras" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="system/su" name="JCROM-Android/jcrom_system_su" remote="sola-android" revision="jb-4.2" />
-  <project path="system/vold" name="JCROM-Android/jcrom_system_vold" remote="sola-android" revision="jb-4.2" />
-  <project path="jcrom/samsung/maguro" name="JCROM-Android/jcrom_samsung_maguro" remote="sola-android" revision="jb-4.2" />
-  <project path="jcrom/samsung/negitoro" name="JCROM-Android/jcrom_samsung_negitoro" remote="sola-android" revision="jb-4.2" />
-  <project path="jcrom/samsung/manta" name="JCROM-Android/jcrom_samsung_manta" remote="sola-android" revision="jb-4.2" />
-  <project path="jcrom/asus/grouper" name="JCROM-Android/jcrom_asus_grouper" remote="sola-android" revision="jb-4.2" />
-  <project path="jcrom/asus/fullgrouper" name="JCROM-Android/jcrom_asus_fullgrouper" remote="sola-android" revision="jb-4.2" />
-  <project path="jcrom/lge/mako" name="JCROM-Android/jcrom_lge_mako" remote="sola-android" revision="jb-4.2" />
-  <project path="jcrom/lge/fullmako" name="JCROM-Android/jcrom_lge_fullmako" remote="sola-android" revision="jb-4.2" />
-  <project path="jcrom/common" name="JCROM-Android/jcrom_common" remote="sola-android" revision="jb-4.2" />
-  <project path="hardware/qcom/display" name="JCROM-Android/jcrom_hardware_qcom_display" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="hardware/qcom/gps" name="JCROM-Android/jcrom_hardware_qcom_gps" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="hardware/qcom/media" name="JCROM-Android/jcrom_hardware_qcom_media" remote="sola-android" revision="jb-4.2-linaro" />
-  <project path="hardware/samsung_slsi/exynos5" name="JCROM-Android/jcrom_hardware_samsung_slsi_exynos5" remote="sola-android" revision="jb-4.2-linaro" />
+  <project path="bionic" name="JCROM-Android/jcrom_bionic" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="device/asus/grouper" name="JCROM-Android/jcrom_device_asus_grouper" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="device/asus/fullgrouper" name="JCROM-Android/jcrom_device_asus_fullgrouper" remote="jcrom" revision="jb-4.2" />
+  <project path="device/lge/mako" name="JCROM-Android/jcrom_device_lge_mako" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="device/lge/fullmako" name="JCROM-Android/jcrom_device_lge_fullmako" remote="jcrom" revision="jb-4.2" />
+  <project path="device/lge/mako-kernel" name="JCROM-Android/jcrom_device_lge_mako-kernel" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="device/samsung/maguro" name="JCROM-Android/jcrom_device_samsung_maguro" remote="jcrom" revision="jb-4.2" />
+  <project path="device/samsung/negitoro" name="JCROM-Android/jcrom_device_samsung_negitoro" remote="jcrom" revision="jb-4.2" />
+  <project path="device/samsung/manta" name="JCROM-Android/jcrom_device_samsung_manta" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="device/samsung/tuna" name="JCROM-Android/jcrom_device_samsung_tuna" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="external/busybox" name="JCROM-Android/jcrom_external_busybox" remote="jcrom" revision="jb-4.2" />
+  <project path="external/kernel-headers" name="JCROM-Android/jcrom_external_kernel-headers" remote="jcrom" revision="jb-4.2" />
+  <project path="external/qemu" name="JCROM-Android/jcrom_external_qemu" remote="jcrom" revision="jb-4.2" />
+  <project path="external/skia" name="JCROM-Android/jcrom_external_skia" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="frameworks/av" name="JCROM-Android/jcrom_frameworks_av" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="frameworks/base" name="JCROM-Android/jcrom_frameworks_base" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="frameworks/native" name="JCROM-Android/jcrom_frameworks_native" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="packages/apps/DeskClock" name="JCROM-Android/jcrom_packages_apps_deskclock" remote="jcrom" revision="jb-4.2" />
+  <project path="packages/apps/Gallery2" name="JCROM-Android/jcrom_packages_apps_gallery2" remote="jcrom" revision="jb-4.2" />
+  <project path="packages/apps/Launcher2" name="JCROM-Android/jcrom_packages_apps_launcher2" remote="jcrom" revision="jb-4.2" />
+  <project path="packages/apps/Settings" name="JCROM-Android/jcrom_packages_apps_settings" remote="jcrom" revision="jb-4.2" />
+  <project path="packages/apps/XSuperuser" name="JCROM-Android/jcrom_packages_apps_xsuperuser" remote="jcrom" revision="jb-4.2" />
+  <project path="packages/apps/VisualThemeSelector" name="JCROM-Android/jcrom_packages_apps_visualthemeselector" remote="jcrom" revision="master" />
+  <project path="system/core" name="JCROM-Android/jcrom_system_core" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="system/extras" name="JCROM-Android/jcrom_system_extras" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="system/su" name="JCROM-Android/jcrom_system_su" remote="jcrom" revision="jb-4.2" />
+  <project path="system/vold" name="JCROM-Android/jcrom_system_vold" remote="jcrom" revision="jb-4.2" />
+  <project path="jcrom/samsung/maguro" name="JCROM-Android/jcrom_samsung_maguro" remote="jcrom" revision="jb-4.2" />
+  <project path="jcrom/samsung/negitoro" name="JCROM-Android/jcrom_samsung_negitoro" remote="jcrom" revision="jb-4.2" />
+  <project path="jcrom/samsung/manta" name="JCROM-Android/jcrom_samsung_manta" remote="jcrom" revision="jb-4.2" />
+  <project path="jcrom/asus/grouper" name="JCROM-Android/jcrom_asus_grouper" remote="jcrom" revision="jb-4.2" />
+  <project path="jcrom/asus/fullgrouper" name="JCROM-Android/jcrom_asus_fullgrouper" remote="jcrom" revision="jb-4.2" />
+  <project path="jcrom/lge/mako" name="JCROM-Android/jcrom_lge_mako" remote="jcrom" revision="jb-4.2" />
+  <project path="jcrom/lge/fullmako" name="JCROM-Android/jcrom_lge_fullmako" remote="jcrom" revision="jb-4.2" />
+  <project path="jcrom/common" name="JCROM-Android/jcrom_common" remote="jcrom" revision="jb-4.2" />
+  <project path="hardware/qcom/display" name="JCROM-Android/jcrom_hardware_qcom_display" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="hardware/qcom/gps" name="JCROM-Android/jcrom_hardware_qcom_gps" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="hardware/qcom/media" name="JCROM-Android/jcrom_hardware_qcom_media" remote="jcrom" revision="jb-4.2-linaro" />
+  <project path="hardware/samsung_slsi/exynos5" name="JCROM-Android/jcrom_hardware_samsung_slsi_exynos5" remote="jcrom" revision="jb-4.2-linaro" />
 
 <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
