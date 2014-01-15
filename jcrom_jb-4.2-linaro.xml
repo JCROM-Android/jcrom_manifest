@@ -85,12 +85,12 @@
   <project path="frameworks/av" name="JCROM-Android/jcrom_frameworks_av" remote="jcrom" revision="jb-4.2-linaro" />
   <project path="frameworks/base" name="JCROM-Android/jcrom_frameworks_base" remote="jcrom" revision="jb-4.2-linaro" />
   <project path="frameworks/native" name="JCROM-Android/jcrom_frameworks_native" remote="jcrom" revision="jb-4.2-linaro" />
-  <project path="packages/apps/DeskClock" name="JCROM-Android/jcrom_packages_apps_deskclock" remote="jcrom" revision="jb-4.2" />
-  <project path="packages/apps/Gallery2" name="JCROM-Android/jcrom_packages_apps_gallery2" remote="jcrom" revision="jb-4.2" />
-  <project path="packages/apps/Launcher2" name="JCROM-Android/jcrom_packages_apps_launcher2" remote="jcrom" revision="jb-4.2" />
-  <project path="packages/apps/Settings" name="JCROM-Android/jcrom_packages_apps_settings" remote="jcrom" revision="jb-4.2" />
-  <project path="packages/apps/XSuperuser" name="JCROM-Android/jcrom_packages_apps_xsuperuser" remote="jcrom" revision="jb-4.2" />
-  <project path="packages/apps/VisualThemeSelector" name="JCROM-Android/jcrom_packages_apps_visualthemeselector" remote="jcrom" revision="master" />
+  <project path="packages/apps/DeskClock" name="JCROM-Android/jcrom_packages_apps_DeskClock" remote="jcrom" revision="jb-4.2" />
+  <project path="packages/apps/Gallery2" name="JCROM-Android/jcrom_packages_apps_Gallery2" remote="jcrom" revision="jb-4.2" />
+  <project path="packages/apps/Launcher2" name="JCROM-Android/jcrom_packages_apps_Launcher2" remote="jcrom" revision="jb-4.2" />
+  <project path="packages/apps/Settings" name="JCROM-Android/jcrom_packages_apps_Settings" remote="jcrom" revision="jb-4.2" />
+  <project path="packages/apps/XSuperuser" name="JCROM-Android/jcrom_packages_apps_XSuperuser" remote="jcrom" revision="jb-4.2" />
+  <project path="packages/apps/VisualThemeSelector" name="JCROM-Android/jcrom_packages_apps_VisualThemeSelector" remote="jcrom" revision="master" />
   <project path="system/core" name="JCROM-Android/jcrom_system_core" remote="jcrom" revision="jb-4.2-linaro" />
   <project path="system/extras" name="JCROM-Android/jcrom_system_extras" remote="jcrom" revision="jb-4.2-linaro" />
   <project path="system/su" name="JCROM-Android/jcrom_system_su" remote="jcrom" revision="jb-4.2" />
