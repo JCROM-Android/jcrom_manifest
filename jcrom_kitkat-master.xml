@@ -5,6 +5,8 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="jcrom"
            fetch="https://github.com/" />
+  <remote  name="cm"
+           fetch="https://github.com/" />
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -22,7 +24,6 @@
   <project path="device/samsung/manta" name="JCROM-Android/jcrom_device_samsung_manta" remote="jcrom" revision="kitkat" />
   <project path="device/samsung/tuna" name="JCROM-Android/jcrom_device_samsung_tuna" remote="jcrom" revision="kitkat" />
   <project path="external/busybox" name="JCROM-Android/jcrom_external_busybox" remote="jcrom" revision="kitkat" />
-  <project path="external/skia" name="JCROM-Android/jcrom_external_skia" remote="jcrom" revision="kitkat" />
   <project path="external/chromium_org" name="JCROM-Android/jcrom_external_chromium_org" remote="jcrom" revision="kitkat" />
   <project path="frameworks/av" name="JCROM-Android/jcrom_frameworks_av" remote="jcrom" revision="kitkat" />
   <project path="frameworks/base" name="JCROM-Android/jcrom_frameworks_base" remote="jcrom" revision="kitkat" />
@@ -44,6 +45,10 @@
   <project path="jcrom/lge/mako" name="JCROM-Android/jcrom_lge_mako" remote="jcrom" revision="kitkat" />
   <project path="jcrom/lge/hammerhead" name="JCROM-Android/jcrom_lge_hammerhead" remote="jcrom" revision="kitkat" />
   <project path="jcrom/common" name="JCROM-Android/jcrom_common" remote="jcrom" revision="kitkat" />
+  <project path="external/skia" name="JCROM-Android/cm_android_external_skia" remote="jcrom" revision="cm-11.0-jcrom" />
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="cm" groups="pdk" revision="cm-11.0" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="cm" groups="pdk" revision="cm-11.0" />
+  <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" groups="pdk" revision="cm-11.0" />
 
 <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -167,7 +172,6 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
@@ -183,7 +187,6 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
@@ -264,7 +267,6 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
