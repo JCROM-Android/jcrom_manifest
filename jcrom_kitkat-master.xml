@@ -46,7 +46,7 @@
   <project path="jcrom/common" name="JCROM-Android/jcrom_common" remote="jcrom" revision="kitkat" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="cm" groups="pdk" revision="cm-11.0" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="cm" groups="pdk" revision="cm-11.0" />
-  <project path="external/skia" name="JCROM-Android/jcrom_external_skia" remote="jcrom" revision="kitkat-4.4.3" />
+  <project path="external/skia" name="JCROM-Android/jcrom_external_skia" remote="jcrom" revision="kitkat" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" groups="pdk" revision="cm-11.0" />
 
 <!-- AOSP -->
