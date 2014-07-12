@@ -28,7 +28,8 @@
   <project path="device/samsung/maguro" name="JCROM-Android/jcrom_device_samsung_maguro" remote="jcrom" revision="kitkat" />
   <project path="device/samsung/manta" name="JCROM-Android/jcrom_device_samsung_manta" remote="jcrom" revision="kitkat" />
   <project path="device/samsung/tuna" name="JCROM-Android/jcrom_device_samsung_tuna" remote="jcrom" revision="kitkat" />
-  <project path="external/busybox" name="JCROM-Android/jcrom_external_busybox" remote="jcrom" revision="kitkat" />
+  <project path="external/busybox" name="JCROM-Android/jcrom_external_busybox" remote="jcrom" revision="android-4.4" />
+  <project path="bootable/recovery" name="JCROM-Android/jcrom_bootable_recovery" remote="jcrom" revision="android-4.4" />
   <project path="frameworks/av" name="JCROM-Android/jcrom_frameworks_av" remote="jcrom" revision="kitkat" />
   <project path="frameworks/native" name="JCROM-Android/jcrom_frameworks_native" remote="jcrom" revision="kitkat" />
   <project path="frameworks/opt/telephony" name="JCROM-Android/jcrom_frameworks_opt_telephony" remote="jcrom" revision="kitkat" />

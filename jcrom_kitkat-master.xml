@@ -23,7 +23,8 @@
   <project path="device/samsung/maguro" name="JCROM-Android/jcrom_device_samsung_maguro" remote="jcrom" revision="kitkat" />
   <project path="device/samsung/manta" name="JCROM-Android/jcrom_device_samsung_manta" remote="jcrom" revision="kitkat" />
   <project path="device/samsung/tuna" name="JCROM-Android/jcrom_device_samsung_tuna" remote="jcrom" revision="kitkat" />
-  <project path="external/busybox" name="JCROM-Android/jcrom_external_busybox" remote="jcrom" revision="kitkat" />
+  <project path="external/busybox" name="JCROM-Android/jcrom_external_busybox" remote="jcrom" revision="android-4.4" />
+  <project path="bootable/recovery" name="JCROM-Android/jcrom_bootable_recovery" remote="jcrom" revision="android-4.4" />
   <project path="frameworks/av" name="JCROM-Android/jcrom_frameworks_av" remote="jcrom" revision="kitkat" />
   <project path="frameworks/base" name="JCROM-Android/jcrom_frameworks_base" remote="jcrom" revision="kitkat" />
   <project path="frameworks/native" name="JCROM-Android/jcrom_frameworks_native" remote="jcrom" revision="kitkat" />
@@ -55,7 +56,6 @@
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />

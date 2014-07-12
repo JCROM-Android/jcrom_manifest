@@ -17,7 +17,7 @@
   </project>
   <project path="device/samsung/tuna" name="JCROM-Android/jcrom_device_samsung_tuna" remote="jcrom" revision="kitkat-f2fs" />
   <project path="external/sepolicy" name="JCROM-Android/jcrom_external_sepolicy" remote="jcrom" revision="kitkat-4.4.3-f2fs" />
-  <project path="bootable/recovery" name="JCROM-Android/jcrom_bootable_recovery" remote="jcrom" revision="kitkat-4.4.3-f2fs" />
+  <project path="bootable/recovery" name="JCROM-Android/jcrom_bootable_recovery_" remote="jcrom" revision="kitkat-4.4.3-f2fs" />
 
 <!-- JCROM -->
   <project path="device/asus/grouper" name="JCROM-Android/jcrom_device_asus_grouper" remote="jcrom" revision="kitkat-4.4.3" />
