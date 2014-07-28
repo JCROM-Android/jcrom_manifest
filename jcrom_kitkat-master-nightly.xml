@@ -17,14 +17,12 @@
   </project>
   <project path="device/asus/grouper" name="JCROM-Android/jcrom_device_asus_grouper" remote="jcrom" revision="kitkat" />
   <project path="device/asus/flo" name="JCROM-Android/jcrom_device_asus_flo" remote="jcrom" revision="kitkat" />
-  <project path="device/asus/deb" name="JCROM-Android/jcrom_device_asus_deb" remote="jcrom" revision="kitkat" />
   <project path="device/lge/mako" name="JCROM-Android/jcrom_device_lge_mako" remote="jcrom" revision="kitkat" />
   <project path="device/lge/hammerhead" name="JCROM-Android/jcrom_device_lge_hammerhead" remote="jcrom" revision="kitkat" />
   <project path="device/samsung/maguro" name="JCROM-Android/jcrom_device_samsung_maguro" remote="jcrom" revision="kitkat" />
   <project path="device/samsung/manta" name="JCROM-Android/jcrom_device_samsung_manta" remote="jcrom" revision="kitkat" />
   <project path="device/samsung/tuna" name="JCROM-Android/jcrom_device_samsung_tuna" remote="jcrom" revision="kitkat" />
-  <project path="external/busybox" name="JCROM-Android/jcrom_external_busybox" remote="jcrom" revision="android-4.4" />
-  <project path="bootable/recovery" name="JCROM-Android/jcrom_bootable_recovery" remote="jcrom" revision="android-4.4" />
+  <project path="bootable/recovery" name="JCROM-Android/jcrom_bootable_recovery" remote="jcrom" revision="kitkat" />
   <project path="frameworks/av" name="JCROM-Android/jcrom_frameworks_av" remote="jcrom" revision="kitkat" />
   <project path="frameworks/base" name="JCROM-Android/jcrom_frameworks_base" remote="jcrom" revision="kitkat" />
   <project path="frameworks/native" name="JCROM-Android/jcrom_frameworks_native" remote="jcrom" revision="kitkat" />
@@ -45,9 +43,11 @@
   <project path="jcrom/lge/mako" name="JCROM-Android/jcrom_lge_mako" remote="jcrom" revision="kitkat" />
   <project path="jcrom/lge/hammerhead" name="JCROM-Android/jcrom_lge_hammerhead" remote="jcrom" revision="kitkat" />
   <project path="jcrom/common" name="JCROM-Android/jcrom_common" remote="jcrom" revision="kitkat" />
+  <project path="external/skia" name="JCROM-Android/jcrom_external_skia" remote="jcrom" revision="kitkat" />
+
+  <project path="external/busybox" name="JCROM-Android/jcrom_external_busybox" remote="jcrom" revision="android-4.4" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="cm" groups="pdk" revision="cm-11.0" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="cm" groups="pdk" revision="cm-11.0" />
-  <project path="external/skia" name="JCROM-Android/jcrom_external_skia" remote="jcrom" revision="kitkat" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" groups="pdk" revision="cm-11.0" />
 
 <!-- AOSP -->
@@ -56,7 +56,6 @@
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
@@ -64,21 +63,8 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
-  <project path="device/common" name="device/common" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
-  <project path="device/generic/common" name="device/generic/common" groups="pdk" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
-  <project path="device/generic/mips" name="device/generic/mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" />
-  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
-  <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
