@@ -53,7 +53,9 @@
   <project path="jcrom/moto/shamu" name="jcrom_moto_shamu" remote="jcrom" revision="lolli" />
   <project path="jcrom/common" name="jcrom_common" remote="jcrom" revision="lolli" />
 
+  <project path="external/sepolicy" name="jcrom_external_sepolicy" remote="jcrom" revision="lolli" />
   <project path="external/skia" name="jcrom_external_skia" remote="jcrom" revision="lolli" />
+  <project path="external/wpa_supplicant_8" name="jcrom_external_wpa_supplicant_8" remote="jcrom" revision="lolli" />
 
 <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -261,7 +263,6 @@
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
@@ -286,7 +287,6 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
