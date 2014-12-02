@@ -32,7 +32,9 @@
 
   <project path="packages/apps/JCWallpaper" name="jcrom_packages_apps_JCWallpaper" remote="jcrom" revision="lolli" />
   <project path="packages/apps/JCLauncher" name="jcrom_packages_apps_JCLauncher" remote="jcrom" revision="lolli" />
+  <project path="packages/apps/Mms" name="jcrom_packages_apps_Mms" remote="jcrom" revision="lolli" />
   <project path="packages/apps/Settings" name="jcrom_packages_apps_Settings" remote="jcrom" revision="lolli" />
+  <project path="packages/services/Telecomm" name="jcrom_packages_services_Telecomm" remote="jcrom" revision="lolli" />
   <project path="packages/apps/VisualThemeSelector" name="jcrom_packages_apps_VisualThemeSelector" remote="jcrom" revision="lolli" />
   <project path="packages/providers/ContactsProvider" name="jcrom_packages_providers_ContactsProvider" remote="jcrom" revision="lolli" />
   <project path="packages/services/Telephony" name="jcrom_packages_services_Telephony" remote="jcrom" revision="lolli" />
@@ -392,7 +394,6 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -428,7 +429,6 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
-  <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
