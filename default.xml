@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="jcrom"
            fetch="https://github.com/JCROM-Android/" />
-  <default revision="refs/tags/android-5.0.0_r7"
+  <default revision="refs/tags/android-5.0.1_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -55,7 +55,6 @@
 
   <project path="external/sepolicy" name="jcrom_external_sepolicy" remote="jcrom" revision="lolli" />
   <project path="external/skia" name="jcrom_external_skia" remote="jcrom" revision="lolli" />
-  <project path="external/wpa_supplicant_8" name="jcrom_external_wpa_supplicant_8" remote="jcrom" revision="lolli" />
 
 <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -287,6 +286,7 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
@@ -397,7 +397,6 @@
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
-  <project path="packages/apps/OMA-DM" name="platform/packages/apps/OMA-DM" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
